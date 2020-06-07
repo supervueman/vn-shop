@@ -3,6 +3,7 @@ const ProductField = require('../../productfield/model');
 const Layout = require('../../../../../core/modules/layout/model');
 const ResourceType = require('../../../../../core/modules/resourcetype/model');
 const Context = require('../../../../../core/modules/context/model');
+const Tag = require('../../../../../core/modules/tag/model');
 
 module.exports = () => {
   Model.hasMany(ProductField, {
@@ -44,5 +45,12 @@ module.exports = () => {
     as: 'children',
     onDelete: 'cascade',
     foreignKey: 'parentId'
+  });
+
+  Model.belongsToMany(Tag, {
+    as: 'tags',
+    onDelete: 'cascade',
+    through: 'ProductTag',
+    constraints: false
   });
 };

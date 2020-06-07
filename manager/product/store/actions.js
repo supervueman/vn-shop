@@ -246,6 +246,58 @@ const actions = {
     return false;
   },
 
+  async addTag(_, payload) {
+    console.log(payload);
+    this.dispatch('preloader/fetch', true);
+    const data = requestDataHandler('PUT', '/products/add-tag', payload.body);
+
+    const response = await axios(data).catch((err) => {
+      this.dispatch('preloader/fetch', false);
+      this.dispatch('notification/fetch', {
+        type: 'error',
+        message: `${err}`,
+        isActive: true
+      });
+    });
+
+    if (typeof response === 'object' && response.status === 200) {
+      this.dispatch('preloader/fetch', false);
+      this.dispatch('notification/fetch', {
+        type: 'success',
+        message: 'Success',
+        isActive: true
+      });
+    }
+  },
+
+  async removeTag(_, payload) {
+    console.log(payload);
+    this.dispatch('preloader/fetch', true);
+    const data = requestDataHandler(
+      'PUT',
+      '/products/remove-tag',
+      payload.body
+    );
+
+    const response = await axios(data).catch((err) => {
+      this.dispatch('preloader/fetch', false);
+      this.dispatch('notification/fetch', {
+        type: 'error',
+        message: `${err}`,
+        isActive: true
+      });
+    });
+
+    if (typeof response === 'object' && response.status === 200) {
+      this.dispatch('preloader/fetch', false);
+      this.dispatch('notification/fetch', {
+        type: 'success',
+        message: 'Success',
+        isActive: true
+      });
+    }
+  },
+
   set({ commit }, payload) {
     commit('SET', payload);
   },

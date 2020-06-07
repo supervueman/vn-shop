@@ -45,6 +45,7 @@
 
 		v-flex.xs12.md5
 			product-secondary-data
+			product-tags
 </template>
 
 <script>
@@ -60,6 +61,7 @@ const alpha = helpers.regex("alpha", /^[a-zA-Z0-9_-]*$/);
 import ImageField from "../../../../core/components/ImageField";
 import ProductSecondaryData from "./ProductSecondaryData";
 import ProductOptions from "./ProductOptions";
+import ProductTags from "../components/ProductTags";
 
 export default {
   name: "ProductData",
@@ -67,7 +69,8 @@ export default {
   components: {
     ImageField,
     ProductSecondaryData,
-    ProductOptions
+    ProductOptions,
+    ProductTags
   },
 
   mixins: [validationMixin],

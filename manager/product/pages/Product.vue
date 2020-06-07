@@ -113,6 +113,7 @@ export default {
           }
         }
       });
+      await this.$store.dispatch("tag/findAll", {});
     }
   },
 
