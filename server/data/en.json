@@ -1,0 +1,230 @@
+[
+  {
+    "slug": "create_product",
+    "value": "Create product"
+  },
+  {
+    "slug": "orders",
+    "value": "Orders"
+  },
+  {
+    "slug": "order_statuses",
+    "value": "Order statuses"
+  },
+  {
+    "slug": "order_status",
+    "value": "Order status"
+  },
+  {
+    "slug": "deliveries",
+    "value": "Deliveries"
+  },
+  {
+    "slug": "cost",
+    "value": "Cost"
+  },
+  {
+    "slug": "region",
+    "value": "Region"
+  },
+  {
+    "slug": "district",
+    "value": "District"
+  },
+  {
+    "slug": "house",
+    "value": "House"
+  },
+  {
+    "slug": "full_address",
+    "value": "Full address"
+  },
+  {
+    "slug": "delivery_create",
+    "value": "Create delivery"
+  },
+  {
+    "slug": "order",
+    "value": "Order"
+  },
+  {
+    "slug": "customer",
+    "value": "Customer"
+  },
+  {
+    "slug": "manager",
+    "value": "Manager"
+  },
+  {
+    "slug": "creation_date",
+    "value": "Creation date"
+  },
+  {
+    "slug": "update_date",
+    "value": "Update date"
+  },
+  {
+    "slug": "delivery",
+    "value": "Delivery"
+  },
+  {
+    "slug": "summ",
+    "value": "Summ"
+  },
+  {
+    "slug": "comment",
+    "value": "Comment"
+  },
+  {
+    "slug": "total",
+    "value": "Total"
+  },
+  {
+    "slug": "article",
+    "value": "Article"
+  },
+  {
+    "slug": "quantity",
+    "value": "Quantity"
+  },
+  {
+    "slug": "price",
+    "value": "Price"
+  },
+  {
+    "slug": "weight",
+    "value": "Weight"
+  },
+  {
+    "slug": "total_weight",
+    "value": "Total weight"
+  },
+  {
+    "slug": "search",
+    "value": "Search"
+  },
+  {
+    "slug": "add_to_order",
+    "value": "Add to order"
+  },
+  {
+    "slug": "courier",
+    "value": "Courier"
+  },
+  {
+    "slug": "order_summ",
+    "value": "Order summ"
+  },
+  {
+    "slug": "delivery_cost",
+    "value": "Delivery cost"
+  },
+  {
+    "slug": "products",
+    "value": "Products"
+  },
+  {
+    "slug": "delivery_info",
+    "value": "Delivery info"
+  },
+  {
+    "slug": "order_creation",
+    "value": "Order creation"
+  },
+  {
+    "slug": "order_num",
+    "value": "Order num"
+  },
+  {
+    "slug": "order_status_create",
+    "value": "Create order status"
+  },
+  {
+    "slug": "color",
+    "value": "Color"
+  },
+  {
+    "slug": "size",
+    "value": "Size"
+  },
+  {
+    "slug": "popular",
+    "value": "Popular"
+  },
+  {
+    "slug": "new",
+    "value": "New"
+  },
+  {
+    "slug": "in_stock",
+    "value": "In stock"
+  },
+  {
+    "slug": "product_creation",
+    "value": "Product creation"
+  },
+  {
+    "slug": "product_create",
+    "value": "Create product"
+  },
+  {
+    "slug": "order_create",
+    "value": "Create order"
+  },
+  {
+    "slug": "shop",
+    "value": "Shop"
+  },
+  {
+    "slug": "product",
+    "value": "Product"
+  },
+  {
+    "slug": "order_modificators",
+    "value": "Order modificators"
+  },
+  {
+    "slug": "product_modificators",
+    "value": "Product modificators"
+  },
+  {
+    "slug": "modificator_create",
+    "value": "Create modificator"
+  },
+  {
+    "slug": "modificators",
+    "value": "Modificators"
+  },
+  {
+    "slug": "target",
+    "value": "Target"
+  },
+  {
+    "slug": "operator",
+    "value": "Operator"
+  },
+  {
+    "slug": "type",
+    "value": "Type"
+  },
+  {
+    "slug": "value",
+    "value": "Value"
+  },
+  {
+    "slug": "value_type",
+    "value": "Value type"
+  },
+  {
+    "slug": "max_value",
+    "value": "Max value"
+  },
+  {
+    "slug": "min_value",
+    "value": "Min value"
+  },
+  {
+    "slug": "add_modificator",
+    "value": "Add modificator"
+  }
+]

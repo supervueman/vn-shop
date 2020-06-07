@@ -1,0 +1,22 @@
+{
+  "is_delivery_read": {
+    "title": "Allow viewing delivery",
+    "value": true
+  },
+  "is_order_read": {
+    "title": "Allow viewing orders",
+    "value": true
+  },
+  "is_order_update": {
+    "title": "Allow editing orders",
+    "value": true
+  },
+  "is_product_read": {
+    "title": "Allow viewing products",
+    "value": true
+  },
+  "is_resource_type_read": {
+    "title": "Allow viewing resource types",
+    "value": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "is_order_status_read": {
+    "title": "Allow viewing order statuses",
+    "value": false
+  },
+  "is_order_status_create": {
+    "title": "Allow creating order statuses",
+    "value": false
+  },
+  "is_order_status_update": {
+    "title": "Allow editing order statuses",
+    "value": false
+  },
+  "is_order_status_delete": {
+    "title": "Allow to delete order statuses",
+    "value": false
+  }
+}

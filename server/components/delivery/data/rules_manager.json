@@ -1,0 +1,18 @@
+{
+  "is_delivery_read": {
+    "title": "Allow viewing delivery",
+    "value": true
+  },
+  "is_delivery_create": {
+    "title": "Allow create delivery",
+    "value": true
+  },
+  "is_delivery_update": {
+    "title": "Allow edit delivery",
+    "value": true
+  },
+  "is_delivery_delete": {
+    "title": "Allow delete delivery",
+    "value": true
+  }
+}

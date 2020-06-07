@@ -1,0 +1,13 @@
+[{
+  "title": "New",
+  "color": "#DC0000"
+}, {
+  "title": "Paid",
+  "color": "#07CD00"
+}, {
+  "title": "Sent",
+  "color": "#001CCD"
+}, {
+  "title": "Canceled",
+  "color": "#000000"
+}]

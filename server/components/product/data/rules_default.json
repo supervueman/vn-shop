@@ -1,0 +1,18 @@
+{
+  "is_product_read": {
+    "title": "Allow viewing products",
+    "value": true
+  },
+  "is_product_create": {
+    "title": "Allow to create products",
+    "value": false
+  },
+  "is_product_update": {
+    "title": "Allow editing products",
+    "value": false
+  },
+  "is_product_remove": {
+    "title": "Allow delete products",
+    "value": false
+  }
+}

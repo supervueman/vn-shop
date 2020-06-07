@@ -1,0 +1,18 @@
+{
+  "is_ordermodificator_read": {
+    "title": "Allow viewing order modificators",
+    "value": false
+  },
+  "is_ordermodificator_create": {
+    "title": "Allow create order modificators",
+    "value": false
+  },
+  "is_ordermodificator_update": {
+    "title": "Allow editing order modificators",
+    "value": false
+  },
+  "is_ordermodificator_delete": {
+    "title": "Allow delete order modificators",
+    "value": false
+  }
+}

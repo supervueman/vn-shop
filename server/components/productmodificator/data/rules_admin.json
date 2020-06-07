@@ -1,0 +1,18 @@
+{
+  "is_productmodificator_read": {
+    "title": "Allow viewing product modificators",
+    "value": true
+  },
+  "is_productmodificator_create": {
+    "title": "Allow create product modificators",
+    "value": true
+  },
+  "is_productmodificator_update": {
+    "title": "Allow editing product modificators",
+    "value": true
+  },
+  "is_productmodificator_delete": {
+    "title": "Allow delete product modificators",
+    "value": true
+  }
+}

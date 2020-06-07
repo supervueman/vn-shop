@@ -1,0 +1,230 @@
+[
+  {
+    "slug": "create_product",
+    "value": "Создать продукт"
+  },
+  {
+    "slug": "orders",
+    "value": "Заказы"
+  },
+  {
+    "slug": "order_statuses",
+    "value": "Статусы заказа"
+  },
+  {
+    "slug": "order_status",
+    "value": "Статус заказа"
+  },
+  {
+    "slug": "deliveries",
+    "value": "Доставки"
+  },
+  {
+    "slug": "cost",
+    "value": "Стоимость"
+  },
+  {
+    "slug": "region",
+    "value": "Регион"
+  },
+  {
+    "slug": "district",
+    "value": "Район"
+  },
+  {
+    "slug": "house",
+    "value": "Дом"
+  },
+  {
+    "slug": "full_address",
+    "value": "Полный адрес"
+  },
+  {
+    "slug": "delivery_create",
+    "value": "Создать доставку"
+  },
+  {
+    "slug": "order",
+    "value": "Заказ"
+  },
+  {
+    "slug": "customer",
+    "value": "Заказчик"
+  },
+  {
+    "slug": "manager",
+    "value": "Менеджер"
+  },
+  {
+    "slug": "creation_date",
+    "value": "Дата создания"
+  },
+  {
+    "slug": "update_date",
+    "value": "Дата обновления"
+  },
+  {
+    "slug": "delivery",
+    "value": "Доставка"
+  },
+  {
+    "slug": "summ",
+    "value": "Сумма"
+  },
+  {
+    "slug": "comment",
+    "value": "Комментарий"
+  },
+  {
+    "slug": "total",
+    "value": "Общая"
+  },
+  {
+    "slug": "article",
+    "value": "Артикул"
+  },
+  {
+    "slug": "quantity",
+    "value": "Количество"
+  },
+  {
+    "slug": "price",
+    "value": "Цена"
+  },
+  {
+    "slug": "weight",
+    "value": "Вес"
+  },
+  {
+    "slug": "total_weight",
+    "value": "Общий вес"
+  },
+  {
+    "slug": "search",
+    "value": "Поиск"
+  },
+  {
+    "slug": "add_to_order",
+    "value": "Добавить к заказу"
+  },
+  {
+    "slug": "courier",
+    "value": "Курьер"
+  },
+  {
+    "slug": "order_summ",
+    "value": "Сумма заказа"
+  },
+  {
+    "slug": "delivery_cost",
+    "value": "Стоимость доставки"
+  },
+  {
+    "slug": "products",
+    "value": "Товары"
+  },
+  {
+    "slug": "delivery_info",
+    "value": "Информация о доставке"
+  },
+  {
+    "slug": "order_creation",
+    "value": "Создание заказа"
+  },
+  {
+    "slug": "order_num",
+    "value": "Номер заказа"
+  },
+  {
+    "slug": "order_status_create",
+    "value": "Создать статус заказа"
+  },
+  {
+    "slug": "color",
+    "value": "Цвет"
+  },
+  {
+    "slug": "size",
+    "value": "Размер"
+  },
+  {
+    "slug": "popular",
+    "value": "Популярный"
+  },
+  {
+    "slug": "new",
+    "value": "Новый"
+  },
+  {
+    "slug": "in_stock",
+    "value": "В наличии"
+  },
+  {
+    "slug": "product_creation",
+    "value": "Создание товара"
+  },
+  {
+    "slug": "product_create",
+    "value": "Создать товар"
+  },
+  {
+    "slug": "order_create",
+    "value": "Создать заказ"
+  },
+  {
+    "slug": "shop",
+    "value": "Магазин"
+  },
+  {
+    "slug": "product",
+    "value": "Товар"
+  },
+  {
+    "slug": "order_modificators",
+    "value": "Модификации заказа"
+  },
+  {
+    "slug": "product_modificators",
+    "value": "Модификации товара"
+  },
+  {
+    "slug": "modificator_create",
+    "value": "Создать модификацию"
+  },
+  {
+    "slug": "modificators",
+    "value": "Модификации"
+  },
+  {
+    "slug": "target",
+    "value": "Цель"
+  },
+  {
+    "slug": "operator",
+    "value": "Оператор"
+  },
+  {
+    "slug": "type",
+    "value": "Тип"
+  },
+  {
+    "slug": "value",
+    "value": "Значение"
+  },
+  {
+    "slug": "value_type",
+    "value": "Тип значения"
+  },
+  {
+    "slug": "max_value",
+    "value": "Максимальное значение"
+  },
+  {
+    "slug": "min_value",
+    "value": "Минимальное значение"
+  },
+  {
+    "slug": "add_modificator",
+    "value": "Добавить модификацию"
+  }
+]
