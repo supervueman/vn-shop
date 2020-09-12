@@ -1,27 +1,27 @@
 [
   {
     "slug": "create_product",
-    "value": "Create product"
+    "value": "Utwórz produkt"
   },
   {
     "slug": "orders",
-    "value": "Orders"
+    "value": "Zamówienia"
   },
   {
     "slug": "order_statuses",
-    "value": "Order statuses"
+    "value": "Statusy zamówień"
   },
   {
     "slug": "order_status",
-    "value": "Order status"
+    "value": "Status zamówienia"
   },
   {
     "slug": "deliveries",
-    "value": "Deliveries"
+    "value": "Dostawa"
   },
   {
     "slug": "cost",
-    "value": "Cost"
+    "value": "Koszt"
   },
   {
     "slug": "region",
@@ -29,175 +29,175 @@
   },
   {
     "slug": "district",
-    "value": "District"
+    "value": "Dzielnica"
   },
   {
     "slug": "house",
-    "value": "House"
+    "value": "Dom"
   },
   {
     "slug": "full_address",
-    "value": "Full address"
+    "value": "Pełny adres"
   },
   {
     "slug": "delivery_create",
-    "value": "Create delivery"
+    "value": "Utwórz dostawę"
   },
   {
     "slug": "order",
-    "value": "Order"
+    "value": "Zamówienie"
   },
   {
     "slug": "customer",
-    "value": "Customer"
+    "value": "Klient"
   },
   {
     "slug": "manager",
-    "value": "Manager"
+    "value": "Menedżer"
   },
   {
     "slug": "creation_date",
-    "value": "Creation date"
+    "value": "Data utworzenia"
   },
   {
     "slug": "update_date",
-    "value": "Update date"
+    "value": "Data aktualizacji"
   },
   {
     "slug": "delivery",
-    "value": "Delivery"
+    "value": "Dostawa"
   },
   {
     "slug": "summ",
-    "value": "Summ"
+    "value": "Ilość"
   },
   {
     "slug": "comment",
-    "value": "Comment"
+    "value": "Komentarz"
   },
   {
     "slug": "total",
-    "value": "Total"
+    "value": "Generał"
   },
   {
     "slug": "article",
-    "value": "Article"
+    "value": "Kod dostawcy"
   },
   {
     "slug": "quantity",
-    "value": "Quantity"
+    "value": "ilość"
   },
   {
     "slug": "price",
-    "value": "Price"
+    "value": "Cena £"
   },
   {
     "slug": "weight",
-    "value": "Weight"
+    "value": "Waga"
   },
   {
     "slug": "total_weight",
-    "value": "Total weight"
+    "value": "Waga całkowita"
   },
   {
     "slug": "search",
-    "value": "Search"
+    "value": "Szukaj"
   },
   {
     "slug": "add_to_order",
-    "value": "Add to order"
+    "value": "Dodać do zamówienia"
   },
   {
     "slug": "courier",
-    "value": "Courier"
+    "value": "Kurier"
   },
   {
     "slug": "order_summ",
-    "value": "Order summ"
+    "value": "Cena zamówienia"
   },
   {
     "slug": "delivery_cost",
-    "value": "Delivery cost"
+    "value": "Koszt przesyłki"
   },
   {
     "slug": "products",
-    "value": "Products"
+    "value": "Produkty"
   },
   {
     "slug": "delivery_info",
-    "value": "Delivery info"
+    "value": "Informacje o dostawie"
   },
   {
     "slug": "order_creation",
-    "value": "Order creation"
+    "value": "Utwórz zamówienie"
   },
   {
     "slug": "order_num",
-    "value": "Order num"
+    "value": "Numer zamówienia"
   },
   {
     "slug": "order_status_create",
-    "value": "Create order status"
+    "value": "Utwórz status zamówienia"
   },
   {
     "slug": "color",
-    "value": "Color"
+    "value": "Kolor"
   },
   {
     "slug": "size",
-    "value": "Size"
+    "value": "Rozmiar"
   },
   {
     "slug": "popular",
-    "value": "Popular"
+    "value": "Popularny"
   },
   {
     "slug": "new",
-    "value": "New"
+    "value": "Nowy"
   },
   {
     "slug": "in_stock",
-    "value": "In stock"
+    "value": "Na stanie"
   },
   {
     "slug": "product_creation",
-    "value": "Product creation"
+    "value": "Tworzenie produktu"
   },
   {
     "slug": "product_create",
-    "value": "Create product"
+    "value": "Utwórz produkt"
   },
   {
     "slug": "order_create",
-    "value": "Create order"
+    "value": "Utwórz zamówienie"
   },
   {
     "slug": "shop",
-    "value": "Shop"
+    "value": "Wynik"
   },
   {
     "slug": "product",
-    "value": "Product"
+    "value": "Produkt"
   },
   {
     "slug": "order_modificators",
-    "value": "Order modificators"
+    "value": "Zamów modyfikacje"
   },
   {
     "slug": "product_modificators",
-    "value": "Product modificators"
+    "value": "Modyfikacje produktu"
   },
   {
     "slug": "modificator_create",
-    "value": "Create modificator"
+    "value": "Utwórz modyfikację"
   },
   {
     "slug": "modificators",
-    "value": "Modificators"
+    "value": "Modyfikacje"
   },
   {
     "slug": "target",
-    "value": "Target"
+    "value": "Cel"
   },
   {
     "slug": "operator",
@@ -205,22 +205,22 @@
   },
   {
     "slug": "type",
-    "value": "Type"
+    "value": "Typ"
   },
   {
     "slug": "value_type",
-    "value": "Value type"
+    "value": "Typ wartości"
   },
   {
     "slug": "max_value",
-    "value": "Max value"
+    "value": "Maksymalna wartość"
   },
   {
     "slug": "min_value",
-    "value": "Min value"
+    "value": "Minimalna wartość"
   },
   {
     "slug": "add_modificator",
-    "value": "Add modificator"
+    "value": "Dodaj modyfikację"
   }
 ]

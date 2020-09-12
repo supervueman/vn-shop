@@ -4,6 +4,7 @@ const ResourceType = require('../../../core/modules/resourcetype/model');
 const courierRules = require('../data/rules_courier.json');
 const enLexicons = require('../data/en.json');
 const ruLexicons = require('../data/ru.json');
+const plLexicons = require('../data/pl.json');
 
 // Healpers
 const createLexicons = require('../../../core/modules/lexicon/helpers/createLexicons');
@@ -35,6 +36,7 @@ module.exports = async () => {
 
   await createLexicons('ru', ruLexicons);
   await createLexicons('en', enLexicons);
+  await createLexicons('pl', plLexicons);
 
   await productInit();
   await orderstatusInit();

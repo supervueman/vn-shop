@@ -1,21 +1,29 @@
-<template lang="pug">
-	v-navigation-drawer(
-		v-model="drawer"
-		width="320"
-		:hide-overlay="true"
-		fixed
-		app
-		mobile-break-point="600"
-		stateless
-		manual-scroll
-	)
-		v-app-bar.primary(dark)
-			router-link(to="/")
-				//- v-img.mr-4(
-				//- 	src="/static/dev-logo.svg" class="toolbar-logo"
-				//- 	max-width="40px"
-				//- )
-		products-tab
+<template>
+  <v-navigation-drawer
+    v-model="drawer"
+    width="320"
+    :hide-overlay="true"
+    fixed
+    app
+    mobile-breakpoint="600"
+    stateless
+    manual-scroll
+  >
+    <v-app-bar
+      class="primary"
+      dark
+      flat
+    >
+      <router-link to="/">
+        <!-- <v-img
+          src="/static/dev-logo.svg"
+          class="toolbar-logo mr-4"
+          max-width="40px"
+        /> -->
+      </router-link>
+    </v-app-bar>
+    <products-tab />
+  </v-navigation-drawer>
 </template>
 
 <script>

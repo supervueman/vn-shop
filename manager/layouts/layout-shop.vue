@@ -16,7 +16,7 @@
     shop-sidebar(
       v-if="isAuth"
     )
-    v-content
+    v-main
       shop-toolbar
       v-container(fluid)
         slot

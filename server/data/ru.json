@@ -208,10 +208,6 @@
     "value": "Тип"
   },
   {
-    "slug": "value",
-    "value": "Значение"
-  },
-  {
     "slug": "value_type",
     "value": "Тип значения"
   },
