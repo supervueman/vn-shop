@@ -1,50 +1,62 @@
-<template lang="pug">
-	v-card.mb-3(outlined)
-		v-card-text
-			ImageField(
-				v-model="product.image"
-				:label="`${d.image || 'Image'}`"
-			)
-			v-select(
-				v-model="product.layoutId"
-				:items="layouts"
-				item-text="title"
-				item-value="id"
-				:label="`${d.layout || 'Layout'}:`"
-			)
-			v-select(
-				v-model="product.resourcetypeId"
-				:items="types"
-				item-text="title"
-				item-value="id"
-				:label="`${d.resource_type || 'Product type'}:`"
-			)
-			v-select(
-				v-model="product.contextId"
-				:items="contexts"
-				item-text="title"
-				item-value="id"
-				:label="`${d.context || 'Context'}:`"
-				v-if="!$route.query.contextId && !$route.params.id"
-			)
-			v-flex.md12
-				v-tooltip(top)
-					template(v-slot:activator="{ on }")
-						v-checkbox(
-							v-model="product.published"
-							:label="`${d.published || 'Published'}`"
-							color="primary"
-							v-on="on"
-						)
-					span published
-			v-tooltip(top)
-				template(v-slot:activator="{ on }")
-					v-text-field(
-						v-model="product.menuindex"
-						:label="`${d.menuindex || 'Menuindex'}:`"
-						v-on="on"
-					)
-				span menuindex
+<template>
+  <v-card
+    class="mb-3"
+    outlined
+  >
+    <v-card-text>
+      <ImageField
+        v-model="product.image"
+        :label="`${d.image || 'Image'}`"
+        @input="product.image = $event"
+      />
+      <v-select
+        v-model="product.layoutId"
+        :items="layouts"
+        item-text="title"
+        item-value="id"
+        :label="`${d.layout || 'Layout'}:`"
+      />
+      <v-select
+        v-model="product.resourcetypeId"
+        :items="types"
+        item-text="title"
+        item-value="id"
+        :label="`${d.resource_type || 'Product type'}:`"
+      />
+      <v-select
+        v-if="!$route.query.contextId && !$route.params.id"
+        v-model="product.contextId"
+        :items="contexts"
+        item-text="title"
+        item-value="id"
+        :label="`${d.context || 'Context'}:`"
+      />
+      <v-flex class="md12">
+        <v-tooltip top>
+          <template v-slot:activator="{ on }">
+            <v-checkbox
+              v-model="product.published"
+              :label="`${d.published || 'Published'}`"
+              color="primary"
+              v-on="on"
+            />
+          </template>
+          <span>published</span>
+        </v-tooltip>
+      </v-flex>
+
+      <v-tooltip top>
+        <template v-slot:activator="{ on }">
+          <v-text-field
+            v-model="product.menuindex"
+            :label="`${d.menuindex || 'Menuindex'}:`"
+            v-on="on"
+          />
+        </template>
+        <span>menuindex</span>
+      </v-tooltip>
+    </v-card-text>
+  </v-card>
 </template>
 
 <script>
