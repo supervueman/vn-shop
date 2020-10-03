@@ -14,7 +14,7 @@ module.exports = async (req, res) => {
     }).catch((err) => {
       logger(
         'error',
-        'shop/order/middleware',
+        'shop-order-middleware',
         400,
         'valifAndCreateModificators.js',
         err

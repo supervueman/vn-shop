@@ -28,18 +28,18 @@ module.exports = async (req, res, next) => {
     (!req.rules.is_order_create && !req.context) ||
     (!req.rules.is_order_update && !req.context)
   ) {
-    logger('error', 'shop/order/middleware', 403, 'validDeliveryInfo.js');
+    logger('error', 'shop-order-middleware', 403, 'validDeliveryInfo.js');
     sendRes({ res, status: 403 });
   }
 
   const delivery = await Delivery.findByPk(req.body.deliveryId).catch((err) => {
-    logger('error', 'shop/order/middleware', 400, 'validDeliveryInfo.js', err);
+    logger('error', 'shop-order-middleware', 400, 'validDeliveryInfo.js', err);
     sendRes({ res, status: 400 });
   });
 
   if (delivery && delivery.schema) {
     if (!req.body.delivery_info) {
-      logger('error', 'shop/order/middleware', 400, 'validDeliveryInfo.js');
+      logger('error', 'shop-order-middleware', 400, 'validDeliveryInfo.js');
       sendRes({ res, status: 400, message: '[Delivery info]: Not exist' });
     }
 
@@ -52,7 +52,7 @@ module.exports = async (req, res, next) => {
       (err) => {
         logger(
           'error',
-          'shop/order/middleware',
+          'shop-order-middleware',
           400,
           'validDeliveryInfo.js',
           err
@@ -63,7 +63,7 @@ module.exports = async (req, res, next) => {
 
     next();
   } else if (!delivery && req.body.delivery_info) {
-    logger('error', 'shop/order/middleware', 400, 'validDeliveryInfo.js');
+    logger('error', 'shop-order-middleware', 400, 'validDeliveryInfo.js');
     sendRes({ res, status: 400 });
   } else {
     next();
